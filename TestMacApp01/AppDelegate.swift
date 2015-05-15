@@ -12,8 +12,13 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-
-
+    
+    @IBOutlet weak var TB_Test: NSTextField!
+    
+    @IBAction func BT_Test(sender: AnyObject) {
+        TB_Test.stringValue = "Change!"
+    }
+    
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
     }
