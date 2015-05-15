@@ -16,7 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var TB_Test: NSTextField!
     
     @IBAction func BT_Test(sender: AnyObject) {
-        TB_Test.stringValue = "Change!"
+        TB_Test.stringValue = "Error"
     }
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
